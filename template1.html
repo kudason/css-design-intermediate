@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        /* Code here */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 50px 50px 0 50px;
+            background-color: #FDF6F0;
+            display: flex;
+            flex-direction: column;
+            min-height: 95vh;
+        }
+
+        .main {
+            flex: 1;
+        }
+
+        h1 {
+            color: #F5C6AA;
+            font-size: 3rem;
+        }
+
+        h2 {
+            color: #F5C6AA;
+        }
+
+        .creative {
+            color: tomato;
+        }
+
+        footer {
+            text-align: right;
+            color: tomato;
+        }
+
+        .title-image {
+            height: 200px;
+            float: left;
+            margin-right: 50px;
+            margin-bottom: 10px;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .card {
+            width: 45%;
+        }
+
+        @media (max-width: 680px) {
+            .logo {
+                width: 75px;
+            }
+
+            .h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+                text-align: justify;
+            }
+
+            .card img {
+                margin-bottom: 10px;
+                width: 100%;
+                display: inline;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="./assets/images/template1/logo.png" alt="logo">
+        <h1>We are a <span class="creative">Creative</span><br>Design Agency</h1>
+        <div class="left card">
+            <img class="title-image" src="./assets/images/template1/animals.jpg" alt="animals">
+            <h2 class="card-title">Animals</h2>
+            <p class="card-text">Bro ipsum dolor sit amet grom gnar travel face plant, corduroy death cookies rail taco gapers first tracks death cookies back country park rock roll. Face shots poaching bowl scream cruiser washboard shred. </p>
+        </div>
+        <div class="right card">
+            <img class="title-image" src="./assets/images/template1/computer.jpg" alt="computer">
+            <h2 class="card-title">Computer</h2>
+            <p class="card-text">Bro ipsum dolor sit amet grom gnar travel face plant, corduroy death cookies rail taco gapers first tracks death cookies back country park rock roll. </p>
+        </div>
+    </div>
+    <footer>
+        <p><strong>Create. Develop. Design</strong></p>
+    </footer>
+</body>
+</html>

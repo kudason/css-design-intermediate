@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 700px;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+}
+
+h1 {
+    display: inline;
+}
+
+.container > div {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+button {
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+
